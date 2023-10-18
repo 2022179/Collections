@@ -9,5 +9,11 @@ package collections;
  * @author Primm
  */
 public class Rectangle {
-    Rectangle []rectangles = {new Rectangle (2,3), new Rectangle (4,1)};
+    int length;
+    int width;
+
+    public Rectangle(int length, int width) {
+        this.length = length;
+        this.width = width;
+    }
 }
